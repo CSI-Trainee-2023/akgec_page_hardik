@@ -1,0 +1,69 @@
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+    }
+    #head1{
+        background-image: url(75azadi.jpg);
+        height: 90px;
+        width: 90px;
+        background-size: cover;
+    }
+    #head2{
+        background-image: url(akglogo.png);
+        height: 90px;
+        width: 90px;
+        background-size: contain;
+    }
+    #head3{
+    width: 350px;
+    height: 96px;
+    }
+    #akgName{
+    
+        margin-top: 0px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #naacLogo{
+        background-image: url(NAAC.jpeg);
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+    }
+#head{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: chocolate 2px solid;
+}
+#taP{
+    text-align: center;
+    border: 2px brown inset;
+    background-color: burlywood;
+}
+#taP_Second{
+    background-image: url(tandp.jpg);
+    width: 400px;
+    height: 200px;
+    background-size: contain;
+    margin-left: 450px;
+}
+#train{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#obiWan{
+    display: flex;
+    justify-content: space-between;
+}
+#training{
+    width: 50%;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#anaKin{
+    background-image: url(pacgraph.png);
+    width: 500px;
+    height: 320px;
+    background-size: cover;
+    margin-right: 50px;
+    box-shadow: 10px 10px 10px 10px lightcoral; 
+}
