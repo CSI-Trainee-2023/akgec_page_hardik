@@ -1,0 +1,109 @@
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+    }
+    #head1{
+        background-image: url(75azadi.jpg);
+        height: 90px;
+        width: 90px;
+        background-size: cover;
+    }
+    #head2{
+        background-image: url(akglogo.png);
+        height: 90px;
+        width: 90px;
+        background-size: contain;
+    }
+    #head3{
+    width: 350px;
+    height: 96px;
+    }
+    #akgName{
+    
+        margin-top: 0px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #naacLogo{
+        background-image: url(NAAC.jpeg);
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+    }
+    #idOne{
+        text-align: center;
+        font-style: oblique;
+        color: antiquewhite;
+        background-color: black;
+
+    }
+    #society{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #compSInd{
+        background-image: url(CSI.png);
+        height: 200px;
+        width: 180px;
+        background-size: contain;
+        box-shadow:  3px 3px 3px 3px rgb(153, 143, 143);
+    }
+    #socioaAE{
+        background-image: url(SAE.png);
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        box-shadow:  3px 3px 3px 3px rgb(153, 143, 143);
+    }
+#line{
+    height: 6px;
+    width: 100%;
+    background-color: rgb(39, 19, 27);
+    margin-top: 20px;
+}
+    #headin_Csi{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+#description_Csi{
+background-color: rgb(105, 99, 99);
+border: 10px orange solid;
+display: flex;
+}
+    #des_One{
+    text-align: justify;
+    font-size: 20px;
+    width: 50%;
+    }
+    #image_One{
+        background-image: url(CSI_1.jpg);
+        height :300px;
+        width: 50%;
+        background-size: contain;
+    }
+    #des_Two{
+        margin-top: 300px;
+        font-size: 20px;
+    }
+#domain_Img{
+    display: flex;
+    justify-content:  space-evenly;
+}
+#domain_Img_One{
+    background-image: url(reactjs-2.png);
+    height: 100px;
+    width: 200px;
+    background-size: contain;
+    margin-top: 50px;
+}
+#domain_Img_Two{
+    background-image: url(htmlcssjs.png);
+    height: 200px;
+    width: 200px;
+}
+#domain_Img_Three{
+    background-image: url(mongoDB.png);
+    height: 200px;
+    width: 150px;
+    background-size: contain;
+}
