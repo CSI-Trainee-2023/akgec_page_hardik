@@ -109,3 +109,50 @@ margin-top: 20px;
 .bTech:hover{
     transform: scale(1.2);
 }
+.lineFour{
+    border-bottom: 6px rgb(155, 117, 21) solid;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(51, 53, 54);
+
+}
+.addressHeading{
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+.quickLinksHeading{
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+.address{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+.contacts{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+.footerThirdHeading{
+    font-size: 30px;
+    font-weight: bold; 
+    color: antiquewhite;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: antiquewhite;
+}
+.aboutAkgecTwo{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
