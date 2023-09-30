@@ -1,124 +1,111 @@
-#navBar{
-display: flex;
-justify-content: space-evenly;
+*{
+    padding: 0;
+    margin: 0;
 }
-#head1{
-    background-image: url(75azadi.jpg);
-    height: 90px;
-    width: 90px;
-    background-size: cover;
+.navBarLogo{
+    display: flex;
+    justify-content: space-between;
+    
+    
 }
-#head2{
-    background-image: url(akglogo.png);
-    height: 90px;
-    width: 90px;
-    background-size: contain;
-}
-#head3{
-width: 350px;
-height: 96px;
-}
-#akgName{
-
-    margin-top: 0px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#naacLogo{
-    background-image: url(NAAC.jpeg);
+.navBarImg{
     height: 100px;
     width: 100px;
-    background-size: cover;
 }
-#akgLink{
-    color: black;
-}
-#akgecLogo{
-    background-image: url(ecell.jpg);
-    height: 90px;
-    width: 90px;
-    background-size: contain;
-    border: 2px black solid;
-}
-p{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: aliceblue;
-border: 1px aliceblue solid;
-}
-#division{
-display: flex;
-justify-content: space-evenly;
-background-color: black;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-bottom: 0px;
-}
-#division_second{
+.navBar{
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     background-color: black;
-    margin-top: 0px;
+    height: 50px;
+    align-items: center;
+    border-bottom:1px teal solid ;
+    border-top:1px teal solid ;
 }
-#info{
-    color: black;
+.contents{
+    color: antiquewhite;
+    font-weight:bolder;
 }
-#division_Second_last{
-   width: 100%;
-   height: 800px;
-   background-image: url(akgecBack.jpg);
-   background-size: cover;
-}
-#discript{
-    display: flex;
-    justify-content: center;
-}
-#clasio{
-    padding-left: 450px;
-    text-align: center;
-    width: 400px;
-    font-size: 34px;
-}
-#faro{
-    display: flex;
-}
-#direc{
-    width: 450px;
-    height: 300px;
-    background-image: url(director-1.jpg);
-    background-size: contain;
-}
-#direc1{
-    width: 450px;
-    height: 300px;
-    background-image: url(Scrolls2019_6.jpeg);
-    background-size: contain;
-}
-h1{
-    border: 2px white dashed;
-}
-#flaTor{
-    color: black;
-    font-size: 23px;
-}
-#add_Bold{
+.akgec{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     font-size: 20px;
-    width: 450px;
-    height: 300px;
 }
-#freedy_one{
+.akgecUniversity{
+    font-weight: lighter;
+}
+.naacCertificationImg{
+    width: 100%;
+}
+#aboutAKGEC{
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 20px;
+}
+.line{
+    border-bottom: 4px teal solid;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.akgDescription{
     display: flex;
-    background-color: black ;
 }
-a{
-    font-family: 'Times New Roman', Times, serif;
+.akgWrittenDescription{
+    font-size: 1.5em;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
 }
-h3{
-    color: azure;
+.akgImg{
+    margin-left: 50px;
+    margin-top: 30px;
 }
-#add{
-    padding-left: 20px;
+.lineTwo{
+    border-bottom: 6px green solid;
+    margin-top: 50px;
 }
-#exInfo{
-    padding-top: 40px;
-    padding-left: 40px;
+#featuredCourses{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.lineThree{
+    border-bottom: 4px maroon solid;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.featuredCoursesDescription{
+    display: flex;
+    justify-content: space-evenly;
+}
+.courseHeading{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.nameCources{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px rgb(120, 214, 198) solid;
+}
+.totalIntake{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.bTech{ 
+    margin-top: 50px;
+    border: 2px rgb(24, 111, 101) solid;
+    transition: all 0.2s  ease-in;
+}
+.bTech:active{ 
+    margin-top: 50px;
+    border: 2px rgb(24, 111, 101) solid;
+    
+}
+.bTech:hover{
+    transform: scale(1.2);
 }
