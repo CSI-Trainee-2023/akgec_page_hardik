@@ -79,3 +79,58 @@
     padding-left: 30px;
     padding-top: 10px;
 }
+.successAndPlamentHeading{
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+.lineFour{
+    border-bottom: 5px  rgb(36, 26, 26) solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+.highestPlacement{
+    width: 20%;
+    height: 300px;
+    box-shadow: 2px 2px 2px 2px  rgb(61, 57, 57);
+    padding-bottom: 200px;
+    margin-bottom: 10px;
+}
+.achievment{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.achievmentDescription{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight:300;
+    padding-top: 10px;
+}
+.successAndPlament{
+    display: flex;
+    justify-content: space-evenly;
+}
+.successStories{
+    background-image:url(https://www.akgec.ac.in/wp-content/uploads/2021/01/Srishti_Success.jpg);
+    height: 396px;
+    width: 25%;
+    background-size: contain;
+    box-shadow: 2px 2px 2px 2px rgb(61, 57, 57);
+    background-repeat: no-repeat;
+    animation-name: coloranimate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+
+}
+@keyframes coloranimate{
+    from{ background-image:url(https://www.akgec.ac.in/wp-content/uploads/2021/01/Srishti_Success.jpg);}
+    to{background-image: url(https://www.akgec.ac.in/wp-content/uploads/2021/01/Arun_Success.jpg);}
+}
+
